@@ -30,6 +30,8 @@ import { DatePickerComponent } from './components/date-picker/date-picker.compon
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { DividerComponent } from './components/divider/divider.component';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -45,7 +47,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     CheckBoxComponent,
     ChipsComponent,
     DatePickerComponent,
-    DialogComponent
+    DialogComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule,
@@ -68,7 +71,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     MatCommonModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatDialogModule
+    MatDialogModule,
+    MatListModule
    
   ],
   providers: [],
