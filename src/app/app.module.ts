@@ -22,7 +22,8 @@ import { CardComponent } from './components/card/card.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { CheckBoxComponent } from './components/check-box/check-box.component';
 import {MatRadioModule} from '@angular/material/radio';
- 
+import {MatChipsModule} from '@angular/material/chips';
+import { ChipsComponent } from './components/chips/chips.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {MatRadioModule} from '@angular/material/radio';
     ButtonComponent,
     ButtonToggleComponent,
     CardComponent,
-    CheckBoxComponent
+    CheckBoxComponent,
+    ChipsComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatButtonToggleModule,
     MatCardModule,
     MatCheckboxModule,
-    MatRadioModule
+    MatRadioModule,
+    MatChipsModule
    
   ],
   providers: [],
