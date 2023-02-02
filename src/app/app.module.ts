@@ -28,6 +28,9 @@ import {MatCommonModule} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { DatePickerComponent } from './components/date-picker/date-picker.component';
 import {MatNativeDateModule} from '@angular/material/core';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogComponent } from './components/dialog/dialog.component';
+
 
 
 @NgModule({
@@ -41,7 +44,8 @@ import {MatNativeDateModule} from '@angular/material/core';
     CardComponent,
     CheckBoxComponent,
     ChipsComponent,
-    DatePickerComponent
+    DatePickerComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +67,8 @@ import {MatNativeDateModule} from '@angular/material/core';
     MatChipsModule,
     MatCommonModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatDialogModule
    
   ],
   providers: [],
