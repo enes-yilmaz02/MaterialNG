@@ -11,12 +11,19 @@ import { BadgeComponent } from './components/badge/badge.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import { ButtonComponent } from './components/button/button.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     AutoCompleteComponent,
     BadgeComponent,
-    BottomSheetComponent
+    BottomSheetComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,10 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
     FormsModule,
     ReactiveFormsModule,
     MatBadgeModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule
    
   ],
   providers: [],
