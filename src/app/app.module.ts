@@ -7,10 +7,14 @@ import { AutoCompleteComponent } from './components/auto-complete/auto-complete.
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { BadgeComponent } from './components/badge/badge.component';
+import {MatBadgeModule} from '@angular/material/badge';
+
 @NgModule({
   declarations: [
     AppComponent,
-    AutoCompleteComponent
+    AutoCompleteComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +23,8 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
     MatAutocompleteModule,
     MatFormFieldModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatBadgeModule
    
   ],
   providers: [],
