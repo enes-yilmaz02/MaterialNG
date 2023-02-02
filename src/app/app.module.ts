@@ -19,7 +19,10 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component';
 import {MatCardModule} from '@angular/material/card';
 import { CardComponent } from './components/card/card.component';
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { CheckBoxComponent } from './components/check-box/check-box.component';
+import {MatRadioModule} from '@angular/material/radio';
+ 
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import { CardComponent } from './components/card/card.component';
     BottomSheetComponent,
     ButtonComponent,
     ButtonToggleComponent,
-    CardComponent
+    CardComponent,
+    CheckBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +49,9 @@ import { CardComponent } from './components/card/card.component';
     MatIconModule,
     MatDividerModule,
     MatButtonToggleModule,
-    MatCardModule
+    MatCardModule,
+    MatCheckboxModule,
+    MatRadioModule
    
   ],
   providers: [],
