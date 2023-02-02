@@ -9,12 +9,14 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BadgeComponent } from './components/badge/badge.component';
 import {MatBadgeModule} from '@angular/material/badge';
-
+import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 @NgModule({
   declarations: [
     AppComponent,
     AutoCompleteComponent,
-    BadgeComponent
+    BadgeComponent,
+    BottomSheetComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatBottomSheetModule
    
   ],
   providers: [],
