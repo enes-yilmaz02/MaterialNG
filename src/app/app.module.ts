@@ -15,6 +15,8 @@ import { ButtonComponent } from './components/button/button.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import {MatDividerModule} from '@angular/material/divider';
     AutoCompleteComponent,
     BadgeComponent,
     BottomSheetComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonToggleComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatBottomSheetModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonToggleModule
    
   ],
   providers: [],
