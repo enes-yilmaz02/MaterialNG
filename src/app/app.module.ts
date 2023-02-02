@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AutoCompleteComponent } from './components/auto-complete/auto-complete.component';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatFormFieldModule } from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input'
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BadgeComponent } from './components/badge/badge.component';
 import {MatBadgeModule} from '@angular/material/badge';
@@ -32,6 +33,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { DividerComponent } from './components/divider/divider.component';
 import {MatListModule} from '@angular/material/list';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 
 
 
@@ -48,7 +51,8 @@ import {MatListModule} from '@angular/material/list';
     ChipsComponent,
     DatePickerComponent,
     DialogComponent,
-    DividerComponent
+    DividerComponent,
+    ExpansionPanelComponent
   ],
   imports: [
     BrowserModule,
@@ -72,7 +76,9 @@ import {MatListModule} from '@angular/material/list';
     MatDatepickerModule,
     MatNativeDateModule,
     MatDialogModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule,
+    MatInputModule
    
   ],
   providers: [],
