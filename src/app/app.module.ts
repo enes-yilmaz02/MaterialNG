@@ -59,6 +59,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { SlideComponent } from './components/slide/slide.component';
+import { SliderComponent } from './components/slider/slider.component';
+
 
 @NgModule({
   declarations: [
@@ -88,7 +90,8 @@ import { SlideComponent } from './components/slide/slide.component';
     RippleComponent,
     SelectComponent,
     SidenavComponent,
-    SlideComponent
+    SlideComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
