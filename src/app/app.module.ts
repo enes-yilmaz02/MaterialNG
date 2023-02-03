@@ -55,6 +55,8 @@ import {MatRippleModule} from '@angular/material/core';
 import { RippleComponent } from './components/ripple/ripple.component';
 import {MatSelectModule} from '@angular/material/select';
 import { SelectComponent } from './components/select/select.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +84,8 @@ import { SelectComponent } from './components/select/select.component';
     ProgressSpinnerComponent,
     RadiooComponent,
     RippleComponent,
-    SelectComponent
+    SelectComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -116,7 +119,8 @@ import { SelectComponent } from './components/select/select.component';
     MatSliderModule,
     MatProgressSpinnerModule,
     MatRippleModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSidenavModule
    
   ],
   providers: [],
