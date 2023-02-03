@@ -68,6 +68,8 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { StepperComponent } from './components/stepper/stepper.component';
 import {MatTableModule} from '@angular/material/table';
 import { TableComponent } from './components/table/table.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 @NgModule({
@@ -103,7 +105,8 @@ import { TableComponent } from './components/table/table.component';
     SnackBarComponent,
     SortHeaderComponent,
     StepperComponent,
-    TableComponent
+    TableComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
@@ -143,7 +146,8 @@ import { TableComponent } from './components/table/table.component';
     MatSnackBarModule,
     MatSortModule,
     MatStepperModule,
-    MatTableModule
+    MatTableModule,
+    MatTabsModule
    
   ],
   providers: [],
