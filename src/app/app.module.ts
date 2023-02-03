@@ -74,6 +74,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { TooBarComponent } from './components/too-bar/too-bar.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
+import {MatTreeModule} from '@angular/material/tree';
+import { ChecklistDatabase, TreeComponent } from './components/tree/tree.component';
 
 
 @NgModule({
@@ -112,7 +114,8 @@ import { TooltipComponent } from './components/tooltip/tooltip.component';
     TableComponent,
     TabsComponent,
     TooBarComponent,
-    TooltipComponent
+    TooltipComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,
@@ -155,10 +158,11 @@ import { TooltipComponent } from './components/tooltip/tooltip.component';
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatTreeModule
    
   ],
-  providers: [],
+  providers: [ChecklistDatabase],
  
   bootstrap: [AppComponent]
 })
