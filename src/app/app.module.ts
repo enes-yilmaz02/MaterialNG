@@ -62,6 +62,8 @@ import { SlideComponent } from './components/slide/slide.component';
 import { SliderComponent } from './components/slider/slider.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { SnackBarComponent } from './components/snack-bar/snack-bar.component';
+import {MatSortModule} from '@angular/material/sort';
+import { SortHeaderComponent } from './components/sort-header/sort-header.component';
 
 
 @NgModule({
@@ -94,7 +96,8 @@ import { SnackBarComponent } from './components/snack-bar/snack-bar.component';
     SidenavComponent,
     SlideComponent,
     SliderComponent,
-    SnackBarComponent
+    SnackBarComponent,
+    SortHeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -131,7 +134,8 @@ import { SnackBarComponent } from './components/snack-bar/snack-bar.component';
     MatSelectModule,
     MatSidenavModule,
     MatSlideToggleModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatSortModule
    
   ],
   providers: [],
