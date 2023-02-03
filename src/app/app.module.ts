@@ -66,6 +66,8 @@ import {MatSortModule} from '@angular/material/sort';
 import { SortHeaderComponent } from './components/sort-header/sort-header.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { StepperComponent } from './components/stepper/stepper.component';
+import {MatTableModule} from '@angular/material/table';
+import { TableComponent } from './components/table/table.component';
 
 
 @NgModule({
@@ -100,7 +102,8 @@ import { StepperComponent } from './components/stepper/stepper.component';
     SliderComponent,
     SnackBarComponent,
     SortHeaderComponent,
-    StepperComponent
+    StepperComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -139,7 +142,8 @@ import { StepperComponent } from './components/stepper/stepper.component';
     MatSlideToggleModule,
     MatSnackBarModule,
     MatSortModule,
-    MatStepperModule
+    MatStepperModule,
+    MatTableModule
    
   ],
   providers: [],
