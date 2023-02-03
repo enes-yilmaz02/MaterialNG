@@ -50,6 +50,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import {MatSliderModule} from '@angular/material/slider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
+import { RadiooComponent } from './components/radioo/radioo.component';
 
 
 
@@ -76,7 +77,8 @@ import { ProgressSpinnerComponent } from './components/progress-spinner/progress
     MenuComponent,
     PaginatorComponent,
     ProgressBarComponent,
-    ProgressSpinnerComponent
+    ProgressSpinnerComponent,
+    RadiooComponent
   ],
   imports: [
     BrowserModule,
