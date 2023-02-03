@@ -48,6 +48,8 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
 
 
 
@@ -73,7 +75,8 @@ import {MatSliderModule} from '@angular/material/slider';
     ListComponent,
     MenuComponent,
     PaginatorComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    ProgressSpinnerComponent
   ],
   imports: [
     BrowserModule,
@@ -104,7 +107,8 @@ import {MatSliderModule} from '@angular/material/slider';
     MatMenuModule,
     MatPaginatorModule,
     MatProgressBarModule,
-    MatSliderModule
+    MatSliderModule,
+    MatProgressSpinnerModule
    
   ],
   providers: [],
