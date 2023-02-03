@@ -64,6 +64,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { SnackBarComponent } from './components/snack-bar/snack-bar.component';
 import {MatSortModule} from '@angular/material/sort';
 import { SortHeaderComponent } from './components/sort-header/sort-header.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import { StepperComponent } from './components/stepper/stepper.component';
 
 
 @NgModule({
@@ -97,7 +99,8 @@ import { SortHeaderComponent } from './components/sort-header/sort-header.compon
     SlideComponent,
     SliderComponent,
     SnackBarComponent,
-    SortHeaderComponent
+    SortHeaderComponent,
+    StepperComponent
   ],
   imports: [
     BrowserModule,
@@ -135,7 +138,8 @@ import { SortHeaderComponent } from './components/sort-header/sort-header.compon
     MatSidenavModule,
     MatSlideToggleModule,
     MatSnackBarModule,
-    MatSortModule
+    MatSortModule,
+    MatStepperModule
    
   ],
   providers: [],
