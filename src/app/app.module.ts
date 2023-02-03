@@ -70,6 +70,8 @@ import {MatTableModule} from '@angular/material/table';
 import { TableComponent } from './components/table/table.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { TabsComponent } from './components/tabs/tabs.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { TooBarComponent } from './components/too-bar/too-bar.component';
 
 
 @NgModule({
@@ -106,7 +108,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     SortHeaderComponent,
     StepperComponent,
     TableComponent,
-    TabsComponent
+    TabsComponent,
+    TooBarComponent
   ],
   imports: [
     BrowserModule,
@@ -147,7 +150,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     MatSortModule,
     MatStepperModule,
     MatTableModule,
-    MatTabsModule
+    MatTabsModule,
+    MatToolbarModule
    
   ],
   providers: [],
