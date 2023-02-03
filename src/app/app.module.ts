@@ -43,6 +43,8 @@ import { InputsComponent } from './components/inputs/inputs.component';
 import { ListComponent } from './components/list/list.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { MenuComponent } from './components/menu/menu.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 
 
@@ -66,7 +68,8 @@ import { MenuComponent } from './components/menu/menu.component';
     IconsComponent,
     InputsComponent,
     ListComponent,
-    MenuComponent
+    MenuComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
@@ -94,7 +97,8 @@ import { MenuComponent } from './components/menu/menu.component';
     MatExpansionModule,
     MatInputModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    MatPaginatorModule
    
   ],
   providers: [],
