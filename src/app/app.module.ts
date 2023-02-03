@@ -60,6 +60,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { SlideComponent } from './components/slide/slide.component';
 import { SliderComponent } from './components/slider/slider.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { SnackBarComponent } from './components/snack-bar/snack-bar.component';
 
 
 @NgModule({
@@ -91,7 +93,8 @@ import { SliderComponent } from './components/slider/slider.component';
     SelectComponent,
     SidenavComponent,
     SlideComponent,
-    SliderComponent
+    SliderComponent,
+    SnackBarComponent
   ],
   imports: [
     BrowserModule,
@@ -127,7 +130,8 @@ import { SliderComponent } from './components/slider/slider.component';
     MatRippleModule,
     MatSelectModule,
     MatSidenavModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatSnackBarModule
    
   ],
   providers: [],
