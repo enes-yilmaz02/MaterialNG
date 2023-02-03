@@ -51,7 +51,8 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
 import { RadiooComponent } from './components/radioo/radioo.component';
-
+import {MatRippleModule} from '@angular/material/core';
+import { RippleComponent } from './components/ripple/ripple.component';
 
 
 @NgModule({
@@ -78,7 +79,8 @@ import { RadiooComponent } from './components/radioo/radioo.component';
     PaginatorComponent,
     ProgressBarComponent,
     ProgressSpinnerComponent,
-    RadiooComponent
+    RadiooComponent,
+    RippleComponent
   ],
   imports: [
     BrowserModule,
@@ -110,7 +112,8 @@ import { RadiooComponent } from './components/radioo/radioo.component';
     MatPaginatorModule,
     MatProgressBarModule,
     MatSliderModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatRippleModule
    
   ],
   providers: [],
