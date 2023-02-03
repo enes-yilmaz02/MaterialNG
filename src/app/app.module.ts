@@ -35,6 +35,7 @@ import { DividerComponent } from './components/divider/divider.component';
 import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
+import { FormFieldComponent } from './components/form-field/form-field.component';
 
 
 
@@ -52,7 +53,8 @@ import { ExpansionPanelComponent } from './components/expansion-panel/expansion-
     DatePickerComponent,
     DialogComponent,
     DividerComponent,
-    ExpansionPanelComponent
+    ExpansionPanelComponent,
+    FormFieldComponent
   ],
   imports: [
     BrowserModule,
