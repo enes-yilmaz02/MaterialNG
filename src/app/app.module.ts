@@ -45,6 +45,9 @@ import {MatMenuModule} from '@angular/material/menu';
 import { MenuComponent } from './components/menu/menu.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { PaginatorComponent } from './components/paginator/paginator.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 
@@ -69,7 +72,8 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
     InputsComponent,
     ListComponent,
     MenuComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
@@ -98,7 +102,9 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
     MatInputModule,
     MatGridListModule,
     MatMenuModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatProgressBarModule,
+    MatSliderModule
    
   ],
   providers: [],
