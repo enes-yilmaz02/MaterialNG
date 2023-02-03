@@ -53,7 +53,8 @@ import { ProgressSpinnerComponent } from './components/progress-spinner/progress
 import { RadiooComponent } from './components/radioo/radioo.component';
 import {MatRippleModule} from '@angular/material/core';
 import { RippleComponent } from './components/ripple/ripple.component';
-
+import {MatSelectModule} from '@angular/material/select';
+import { SelectComponent } from './components/select/select.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { RippleComponent } from './components/ripple/ripple.component';
     ProgressBarComponent,
     ProgressSpinnerComponent,
     RadiooComponent,
-    RippleComponent
+    RippleComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,
@@ -113,7 +115,8 @@ import { RippleComponent } from './components/ripple/ripple.component';
     MatProgressBarModule,
     MatSliderModule,
     MatProgressSpinnerModule,
-    MatRippleModule
+    MatRippleModule,
+    MatSelectModule
    
   ],
   providers: [],
