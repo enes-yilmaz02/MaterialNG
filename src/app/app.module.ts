@@ -41,6 +41,8 @@ import { GridListComponent } from './components/grid-list/grid-list.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { InputsComponent } from './components/inputs/inputs.component';
 import { ListComponent } from './components/list/list.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -63,7 +65,8 @@ import { ListComponent } from './components/list/list.component';
     GridListComponent,
     IconsComponent,
     InputsComponent,
-    ListComponent
+    ListComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -90,7 +93,8 @@ import { ListComponent } from './components/list/list.component';
     MatListModule,
     MatExpansionModule,
     MatInputModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule
    
   ],
   providers: [],
