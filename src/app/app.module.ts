@@ -36,6 +36,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 import { FormFieldComponent } from './components/form-field/form-field.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { GridListComponent } from './components/grid-list/grid-list.component';
 
 
 
@@ -54,7 +56,8 @@ import { FormFieldComponent } from './components/form-field/form-field.component
     DialogComponent,
     DividerComponent,
     ExpansionPanelComponent,
-    FormFieldComponent
+    FormFieldComponent,
+    GridListComponent
   ],
   imports: [
     BrowserModule,
@@ -80,7 +83,8 @@ import { FormFieldComponent } from './components/form-field/form-field.component
     MatDialogModule,
     MatListModule,
     MatExpansionModule,
-    MatInputModule
+    MatInputModule,
+    MatGridListModule
    
   ],
   providers: [],
