@@ -40,6 +40,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { GridListComponent } from './components/grid-list/grid-list.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { InputsComponent } from './components/inputs/inputs.component';
+import { ListComponent } from './components/list/list.component';
 
 
 
@@ -61,7 +62,8 @@ import { InputsComponent } from './components/inputs/inputs.component';
     FormFieldComponent,
     GridListComponent,
     IconsComponent,
-    InputsComponent
+    InputsComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
